@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- *main - Entry point
+ * main - Entry point
  * Description : print the word "-putchar"
  *
- *Return: On success 1.
+ * Return: always (0) success.
  *
  */
-int _putchar(void)
+int main(void)
 {
 	int i;
 	char p[] = "_putchar";
