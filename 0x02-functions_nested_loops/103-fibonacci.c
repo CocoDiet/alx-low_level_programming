@@ -24,6 +24,6 @@ int main(void)
 	}
 
 	}
-	 printf("%ld\n", afn);
-	 return (0);
+	printf("%ld\n", afn);
+	return (0);
 }
