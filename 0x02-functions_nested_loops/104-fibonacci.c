@@ -1,12 +1,10 @@
-es (48 sloc)  813 Bytes
-   
 #include <stdio.h>
 
 /**
- * main - Prints the first 98 Fibonacci numbers
- *   
- * Return: Always 0.
- */
+* main - Prints the first 98 Fibonacci numbers
+*   
+* Return: Always 0.
+*/
 int main(void)
 {
 	   int c, boolean, boolean2;

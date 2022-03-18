@@ -1,28 +1,25 @@
-#include "main.h"
-
+#include "main."
 /**
- * jack_bauer - Prints the minutes of a day
- *   
- *  Return: no return
- */
+* jack_bauer - prints every minute of the day of Jack Bauer
+* starting rom 00:00 to 23:59
+*/
 void jack_bauer(void)
 {
-         int a, b, c, d;
+	int i, j;
 
-	 for (a = 48; a <= 50; a++)
-	 {
-		for (b = 48; b <= 57; b++)
+	i = 0;
+
+	while (i < 24)
+	{
+		j = 0;
+		while (j < 60)
 		{
-		        for (c = 48; c <= 53; c++)
-			{
-																			for (d = 48; d <= 57; d++)
-																			{
-																				if (a >= 50 && b >= 52)																														break;
-																				_putchar(a);																													_putchar(b);
-																			        _putchar(58);																													_putchar(c);																													_putchar(d);
-																				_putchar('\n');
-																				}
-			}														}
-
-      }  
+																		_putchar((i / 10) + '0');
+																		_putchar((i % 10) + '0');
+																		_putchar(':');
+																		_putchar((j / 10) + '0');
+																		_putchar((j % 10) + '0');																											_putchar('\n');
+																		j++;																													}
+		i++;
+	}
 }
